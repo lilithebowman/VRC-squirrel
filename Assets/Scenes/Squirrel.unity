@@ -935,6 +935,46 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.00000006525711
       objectReference: {fileID: 0}
+    - target: {fileID: -5395846097074557702, guid: 4b369eb1adf28994386cc84d7ce2b05a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5395846097074557702, guid: 4b369eb1adf28994386cc84d7ce2b05a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000044703484
+      objectReference: {fileID: 0}
+    - target: {fileID: -5395846097074557702, guid: 4b369eb1adf28994386cc84d7ce2b05a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 3.1641356e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: -5395846097074557702, guid: 4b369eb1adf28994386cc84d7ce2b05a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -5.868621e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: -4052108270035828034, guid: 4b369eb1adf28994386cc84d7ce2b05a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4052108270035828034, guid: 4b369eb1adf28994386cc84d7ce2b05a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000044703484
+      objectReference: {fileID: 0}
+    - target: {fileID: -4052108270035828034, guid: 4b369eb1adf28994386cc84d7ce2b05a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 3.1641356e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: -4052108270035828034, guid: 4b369eb1adf28994386cc84d7ce2b05a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -5.868621e-16
+      objectReference: {fileID: 0}
     - target: {fileID: -848647742036519987, guid: 4b369eb1adf28994386cc84d7ce2b05a,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -1286,7 +1326,7 @@ MonoBehaviour:
   blueprintId: avtr_f0d41f23-2be1-43eb-9b6c-a1b5bfcb9567
   contentType: 0
   assetBundleUnityVersion: 
-  fallbackStatus: 0
+  fallbackStatus: 1
 --- !u!114 &1774586100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1322,28 +1362,28 @@ MonoBehaviour:
     eyeMovement:
       confidence: 0.5
       excitement: 0.5
-    leftEye: {fileID: 1892444905}
-    rightEye: {fileID: 1892444904}
+    leftEye: {fileID: 2022341091}
+    rightEye: {fileID: 2022341090}
     eyesLookingStraight:
-      linked: 1
-      left: {x: 0.19080906, y: 0, z: 0, w: 0.98162717}
-      right: {x: 0.19080906, y: 0, z: 0, w: 0.98162717}
-    eyesLookingUp:
       linked: 1
       left: {x: 0, y: 0, z: 0, w: 1}
       right: {x: 0, y: 0, z: 0, w: 1}
+    eyesLookingUp:
+      linked: 1
+      left: {x: 0.20791173, y: 0, z: 0, w: 0.97814757}
+      right: {x: 0.20791173, y: 0, z: 0, w: 0.97814757}
     eyesLookingDown:
       linked: 1
-      left: {x: 0.37460658, y: 0, z: 0, w: 0.92718387}
-      right: {x: 0.37460658, y: 0, z: 0, w: 0.92718387}
+      left: {x: -0.2079117, y: 0, z: 0, w: 0.9781476}
+      right: {x: -0.2079117, y: 0, z: 0, w: 0.9781476}
     eyesLookingLeft:
       linked: 1
-      left: {x: 0.18663964, y: -0.20409176, z: 0.03967148, w: 0.9601762}
-      right: {x: 0.18663964, y: -0.20409176, z: 0.03967148, w: 0.9601762}
+      left: {x: 0, y: -0.2079117, z: 0, w: 0.9781476}
+      right: {x: 0, y: -0.2079117, z: 0, w: 0.9781476}
     eyesLookingRight:
       linked: 1
-      left: {x: 0.18663941, y: 0.2040918, z: -0.03967144, w: 0.9601762}
-      right: {x: 0.18663941, y: 0.2040918, z: -0.03967144, w: 0.9601762}
+      left: {x: 0, y: 0.20791176, z: 0, w: 0.97814757}
+      right: {x: 0, y: 0.20791176, z: 0, w: 0.97814757}
     eyelidType: 0
     upperLeftEyelid: {fileID: 0}
     upperRightEyelid: {fileID: 0}
@@ -1438,9 +1478,9 @@ MonoBehaviour:
     isMirrored: 1
     state: 0
     transform: {fileID: 1281690720}
-    radius: 0.0013066004
+    radius: 0.0012191304
     height: 0
-    position: {x: -4.1682168e-11, y: 0.0016238648, z: -0.000174826}
+    position: {x: -3.8891616e-11, y: 0.0015151564, z: -0.00016312252}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   collider_torso:
     isMirrored: 1
@@ -1546,18 +1586,6 @@ MonoBehaviour:
     height: 0.0014525576
     position: {x: 0, y: 0, z: 0}
     rotation: {x: 0, y: 0, z: 0, w: 1}
---- !u!4 &1892444904 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -7287119770839124489, guid: 4b369eb1adf28994386cc84d7ce2b05a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1281690713}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1892444905 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -848647742036519987, guid: 4b369eb1adf28994386cc84d7ce2b05a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1281690713}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1916524211 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 643644224397638448, guid: 4b369eb1adf28994386cc84d7ce2b05a,
@@ -1855,7 +1883,7 @@ MonoBehaviour:
   blueprintId: avtr_f0d41f23-2be1-43eb-9b6c-a1b5bfcb9567
   contentType: 0
   assetBundleUnityVersion: 
-  fallbackStatus: 0
+  fallbackStatus: 2
 --- !u!114 &1975907908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2108,6 +2136,18 @@ MonoBehaviour:
 --- !u!4 &2006114156 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -6579707579154402027, guid: 4b369eb1adf28994386cc84d7ce2b05a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1281690713}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2022341090 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4052108270035828034, guid: 4b369eb1adf28994386cc84d7ce2b05a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1281690713}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2022341091 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5395846097074557702, guid: 4b369eb1adf28994386cc84d7ce2b05a,
     type: 3}
   m_PrefabInstance: {fileID: 1281690713}
   m_PrefabAsset: {fileID: 0}
